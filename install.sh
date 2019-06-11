@@ -3,9 +3,7 @@ rm -rf ~/tmp/vim-backup
 mkdir -p ~/.vim
 mv ~/.vim ~/tmp/vim-backup
 
-# git clone git@github.com:blogsoso/vimfile.git ~/.vim
-
-git clone https://github.com/gialib/vimfile.git ~/.vim
+git clone https://github.com/dev800/vimfile.git ~/.vim
 
 cd ~/.vim
 
