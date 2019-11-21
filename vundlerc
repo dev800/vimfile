@@ -8,6 +8,8 @@ Bundle 'gmarik/vundle'
 
 Bundle 'pangloss/vim-javascript'
 
+Bundle 'leafgarland/typescript-vim'
+Bundle 'posva/vim-vue'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdtree'
