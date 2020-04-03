@@ -27,5 +27,26 @@ sudo apt-get install ack-grep
 
 ```
 
-bash <(curl -s https://raw.github.com/dev800/vimfile/master/install.sh)
+## install steps
 
+```bash
+git clone git@github.com:dev800/vimfile.git ~/.vim
+
+cd ~/.vim
+
+mkdir -p ~/.vim/bundle
+
+rm ~/.vimrc
+rm ~/.gvimrc
+
+ln -s ~/.vim/.vimrc ~/.vimrc
+ln -s ~/.vim/.gvimrc ~/.gvimrc
+
+touch ~/.vim/.vimrc_local
+touch ~/.vim/.gvimrc_local
+touch ~/.vim/vundlerc_local
+
+mkdir -p ~/.vim/bundle/vundle
+cd ~/.vim/bundle/vundle && git clone git://github.com/gmarik/vundle.git .
+cd ~/.vim && ./bundle.sh
+```
