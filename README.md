@@ -30,14 +30,14 @@ sudo apt-get install ack-grep
 ## install steps
 
 ```bash
-git clone git@github.com:dev800/vimfile.git ~/.vim
+git clone https://github.com/dev800/vimfile.git ~/.vim
 
 cd ~/.vim
 
 mkdir -p ~/.vim/bundle
 
-rm ~/.vimrc
-rm ~/.gvimrc
+rm -rf ~/.vimrc
+rm -rf ~/.gvimrc
 
 ln -s ~/.vim/.vimrc ~/.vimrc
 ln -s ~/.vim/.gvimrc ~/.gvimrc
